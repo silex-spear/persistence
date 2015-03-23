@@ -1,8 +1,10 @@
 # Composer files
+composer.phar
 vendor/
 
 # Eclipse files
 .project
+.settings
 
 # Code coverage report
 report/
