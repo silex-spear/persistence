@@ -1,28 +1,19 @@
 {
-    "repositories" : [{
-            "type" : "composer",
-            "url" : "http://satis.corp.domisys.com"
-        }
-    ],
     "require-dev" : {
         "phpunit/phpunit" : "~4.2"
     },
     "autoload" : {
         "psr-4" : {
-            "Blockos\\Persistence\\" : "src"
+            "Spear\\Silex\\Persistence\\" : "src"
         }
     },
-    "name" : "blockos/persistence",
+    "name" : "silex-spear/persistence",
     "description" : "Persistence couch common files",
     "type" : "library",
-    "authors" : [ 
-        {
-            "name" : "Sylvain Piteau",
-            "email" : "piteau@domisys.com"
-        },
+    "authors" : [
         {
             "name" : "Romain Renaud",
-            "email" : "rrenaud@domisys.com"
+            "email" : "contact@romain-renaud.fr"
         }
     ]
 }
