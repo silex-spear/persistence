@@ -1,6 +1,9 @@
 # Composer files
 vendor/
 
+# Eclipse files
+.project
+
 # Code coverage report
 report/
 
