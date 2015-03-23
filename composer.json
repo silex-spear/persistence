@@ -14,6 +14,10 @@
         {
             "name" : "Romain Renaud",
             "email" : "contact@romain-renaud.fr"
+        },
+        {
+            "name" : "Sébastien Lavenant",
+            "email" : "sebastien@lavenant.me"
         }
     ]
 }
