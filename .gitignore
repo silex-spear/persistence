@@ -1,0 +1,6 @@
+# Composer files
+vendor/
+
+# Code coverage report
+report/
+
