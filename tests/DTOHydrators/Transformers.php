@@ -1,10 +1,10 @@
 <?php
 
-namespace Blockos\Persistence\DTOHydrators;
+namespace Spear\Silex\Persistence\DTOHydrators;
 
-use Blockos\Persistence\ValueTransformers\ValueTransformer;
-use Blockos\Persistence\Field;
-use Blockos\Persistence\FieldTypes;
+use Spear\Silex\Persistence\ValueTransformers\ValueTransformer;
+use Spear\Silex\Persistence\Field;
+use Spear\Silex\Persistence\FieldTypes;
 
 class UppercaseTransformer implements ValueTransformer
 {

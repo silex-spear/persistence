@@ -1,9 +1,9 @@
 <?php
 
-namespace Blockos\Persistence\Fields;
+namespace Spear\Silex\Persistence\Fields;
 
-use Blockos\Persistence\Field;
-use Blockos\Persistence\FieldTypes;
+use Spear\Silex\Persistence\Field;
+use Spear\Silex\Persistence\FieldTypes;
 
 class UnsignedFloat extends Float implements Field
 {

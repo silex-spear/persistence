@@ -1,5 +1,5 @@
 <?php
-namespace Blockos\Persistence;
+namespace Spear\Silex\Persistence;
 
 interface FieldTypes
 {

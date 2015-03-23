@@ -1,6 +1,6 @@
 <?php
 
-namespace Blockos\Persistence;
+namespace Spear\Silex\Persistence;
 
 class TestDto implements DataTransferObject
 {

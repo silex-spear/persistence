@@ -1,12 +1,12 @@
 <?php
 
-namespace Blockos\Persistence\DTOHydrators;
+namespace Spear\Silex\Persistence\DTOHydrators;
 
-use Blockos\Persistence\DTOHydrator;
-use Blockos\Persistence\DataTransferObject;
-use Blockos\Persistence\Field;
-use Blockos\Persistence\Exceptions\InvalidDataException;
-use Blockos\Persistence\ValueTransformers\ValueTransformer;
+use Spear\Silex\Persistence\DTOHydrator;
+use Spear\Silex\Persistence\DataTransferObject;
+use Spear\Silex\Persistence\Field;
+use Spear\Silex\Persistence\Exceptions\InvalidDataException;
+use Spear\Silex\Persistence\ValueTransformers\ValueTransformer;
 
 class ByField implements DTOHydrator
 {

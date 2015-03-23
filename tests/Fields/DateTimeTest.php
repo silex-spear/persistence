@@ -1,6 +1,6 @@
 <?php
 
-namespace Blockos\Persistence\Fields;
+namespace Spear\Silex\Persistence\Fields;
 
 class DateTimeTest extends \PHPUnit_Framework_TestCase
 {
@@ -31,7 +31,7 @@ class DateTimeTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider providerTestConvertWithExceptions
-     * @expectedException \Blockos\Persistence\Exceptions\InvalidDataException
+     * @expectedException \Spear\Silex\Persistence\Exceptions\InvalidDataException
      */
     public function testConvertWithExceptions($value)
     {

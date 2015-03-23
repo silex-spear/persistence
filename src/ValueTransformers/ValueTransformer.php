@@ -1,8 +1,8 @@
 <?php
 
-namespace Blockos\Persistence\ValueTransformers;
+namespace Spear\Silex\Persistence\ValueTransformers;
 
-use Blockos\Persistence\Field;
+use Spear\Silex\Persistence\Field;
 
 interface ValueTransformer
 {

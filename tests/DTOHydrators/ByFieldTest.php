@@ -1,10 +1,10 @@
 <?php
 
-namespace Blockos\Persistence\DTOHydrators;
+namespace Spear\Silex\Persistence\DTOHydrators;
 
-use Blockos\Persistence\Fields;
-use Blockos\Persistence\TestDto;
-use Blockos\Persistence\DTOHydrator;
+use Spear\Silex\Persistence\Fields;
+use Spear\Silex\Persistence\TestDto;
+use Spear\Silex\Persistence\DTOHydrator;
 
 require_once __DIR__ . '/../TestDto.php';
 require_once __DIR__ . '/Transformers.php';
@@ -49,7 +49,7 @@ class ByFieldTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider providerTestErrors
-     * @expectedException \Blockos\Persistence\Exceptions\InvalidDataException
+     * @expectedException \Spear\Silex\Persistence\Exceptions\InvalidDataException
      */
     public function testHydrateWithExceptions(array $dataset)
     {

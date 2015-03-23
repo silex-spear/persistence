@@ -1,6 +1,6 @@
 <?php
 
-namespace Blockos\Persistence\Fields;
+namespace Spear\Silex\Persistence\Fields;
 
 require_once __DIR__ . '/AbstractFieldTestCase.php';
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Blockos\Persistence\Fields;
+namespace Spear\Silex\Persistence\Fields;
 
-use Blockos\Persistence\Field;
+use Spear\Silex\Persistence\Field;
 
 class BooleanTest extends \PHPUnit_Framework_TestCase
 {
@@ -93,7 +93,7 @@ class BooleanTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider providerTestConvertWithExceptions
-     * @expectedException \Blockos\Persistence\Exceptions\InvalidDataException
+     * @expectedException \Spear\Silex\Persistence\Exceptions\InvalidDataException
      */
     public function testConvertWithExceptions(Field $field, $value)
     {

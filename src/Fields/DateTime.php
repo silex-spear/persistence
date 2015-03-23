@@ -1,10 +1,10 @@
 <?php
 
-namespace Blockos\Persistence\Fields;
+namespace Spear\Silex\Persistence\Fields;
 
-use Blockos\Persistence\Field;
-use Blockos\Persistence\Exceptions\InvalidDataException;
-use Blockos\Persistence\FieldTypes;
+use Spear\Silex\Persistence\Field;
+use Spear\Silex\Persistence\Exceptions\InvalidDataException;
+use Spear\Silex\Persistence\FieldTypes;
 
 class DateTime extends Raw implements Field
 {

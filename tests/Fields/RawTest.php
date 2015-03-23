@@ -1,8 +1,8 @@
 <?php
 
-namespace Blockos\Persistence\Fields;
+namespace Spear\Silex\Persistence\Fields;
 
-use Blockos\Persistence\Field;
+use Spear\Silex\Persistence\Field;
 
 class RawTest extends \PHPUnit_Framework_TestCase
 {

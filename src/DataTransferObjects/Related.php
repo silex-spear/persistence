@@ -1,8 +1,8 @@
 <?php
 
-namespace Blockos\Persistence\DataTransferObjects;
+namespace Spear\Silex\Persistence\DataTransferObjects;
 
-use Blockos\Persistence\DataTransferObject;
+use Spear\Silex\Persistence\DataTransferObject;
 
 abstract class Related implements DataTransferObject
 {

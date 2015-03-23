@@ -1,9 +1,9 @@
 <?php
 
-namespace Blockos\Persistence\Fields;
+namespace Spear\Silex\Persistence\Fields;
 
-use Blockos\Persistence\Exceptions\InvalidDataException;
-use Blockos\Persistence\Field;
+use Spear\Silex\Persistence\Exceptions\InvalidDataException;
+use Spear\Silex\Persistence\Field;
 
 class NotNullable implements Field
 {

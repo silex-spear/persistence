@@ -1,10 +1,9 @@
 <?php
 
-namespace Blockos\Persistence\ValueTransformers\Encoders;
+namespace Spear\Silex\Persistence\ValueTransformers\Encoders;
 
-use Blockos\Persistence\ValueTransformers\ValueTransformer;
-use Blockos\Persistence\Field;
-use Blockos\Persistence\FieldTypes;
+use Spear\Silex\Persistence\ValueTransformers\ValueTransformer;
+use Spear\Silex\Persistence\Field;
 
 class ISOToUTF8 implements ValueTransformer
 {

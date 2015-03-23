@@ -1,6 +1,6 @@
 <?php
 
-namespace Blockos\Persistence\Exceptions;
+namespace Spear\Silex\Persistence\Exceptions;
 
 class DTONotFoundException extends \Exception
 {
